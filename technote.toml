@@ -10,12 +10,21 @@ organization.ror = "https://ror.org/048g3cy84"
 license.id = "CC-BY-4.0"
 
 [technote.status]
-state = "draft"
+state = "stable"
 
 [[technote.authors]]
 name.given = "Tiago"
 name.family = "Ribeiro"
 internal_id = "ribeirot"
+
+[[technote.authors]]
+name.given = "Michael"
+name.family = "Reuter"
+internal_id = "reuterma"
+
+[[technote.authors]]
+name.given = "Sebastian"
+name.family = "Aranda"
 
 [[technote.authors.affiliations]]
 name = "Vera C. Rubin Observatory Project Office"
