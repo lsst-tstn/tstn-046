@@ -166,3 +166,16 @@ This would allow us to split the traffic into more than one Redis instance.
 Furthermore, we should also try to design a more clever way to store the Script data.
 For now, we have been dealing with this issue by cleaning up old instances of Scripts for which the data is no longer needed.
 
+Resource Material
+=================
+
+The following is a collection of articles that were useful during this exploratory work.
+
+- `Introduction to Django Channels <https://testdriven.io/blog/django-channels/>`__, explain how the technology that powers the love-manager works.
+- `Load balancing and scaling long-lived connections in Kubernetes <https://learnk8s.io/kubernetes-long-lived-connections>`__, explains how load balancing works in Kubernetes.
+- `Turning IPTables into a TCP load balancer for fun and profit <https://scalingo.com/blog/iptables#load-balancing>`__, explains how IPTables can be used to create a load balancers.
+  This is, for example, how ClusterIP handles load balancing.
+- `Kubernetes: Service documentation <https://kubernetes.io/docs/concepts/services-networking/service/>`__, documentation on the concept of "Service" on Kubernetes.
+- `Kubernetes: Service ClusterIP allocation <https://kubernetes.io/docs/concepts/services-networking/cluster-ip-allocation/>`__, documentation on the ClusterIP Kubernetes service.
+- `Kubernetes: Network Policies <https://kubernetes.io/docs/concepts/services-networking/network-policies/>`__, documentation on Kubernetes network policies.
+
