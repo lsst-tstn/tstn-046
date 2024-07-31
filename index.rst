@@ -53,7 +53,7 @@ The connection with the manager is mainly unidirectional (though we should note 
 For the commander data flows in both directions; the frontend sends requests to the commander and the commander sends the response back to the frontend.
 
 Kubernetes Deployment Configuration
-============================
+===================================
 
 LOVE Kubernetes deployment configuration is divided in 4 different applications.
 There is a main love Application that is a custom resource definition (CRD) kind of application provided by ArgoCD, designed to group the LOVE's services.
